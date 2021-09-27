@@ -1,0 +1,12 @@
+{
+    "name" : "keith_scales",
+    "display" : "Keith Scales",
+    "parameters" :  [ 
+        ["int","root","Root",0,11,0],
+        ["int","scale","Scale",0,21,0]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["root","scale"]]
+    ]
+}
+
