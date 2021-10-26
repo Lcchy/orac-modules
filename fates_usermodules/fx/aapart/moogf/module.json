@@ -1,0 +1,12 @@
+{
+    "name" : "moogf",
+    "display" : "Moogf",
+    "parameters" :  [ 
+        ["pct","cutoff","Cutoff",0,100,50],
+        ["pct","wet","Dry/Wet",0,100,100]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["cutoff", "wet"]]
+    ]
+}
+

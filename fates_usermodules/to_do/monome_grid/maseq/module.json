@@ -1,0 +1,14 @@
+{
+    "name" : "maseq",
+    "display" : "Maseq 2000",
+    "parameters" :  [ 
+        ["pct","fund","Fundamental",0,100,47],
+	    ["pct","subH","Sub Harmonic",0,100,62],
+        ["pct","firstH","1st Harmonic",0,100,36],
+        ["pct","secH","2nd Harmonic",0,100,100]     
+    ],
+    "pages" : [
+        ["pg_main","Main",["fund","subH","firstH","secH"]]
+    ]
+}
+

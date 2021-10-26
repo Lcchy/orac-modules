@@ -1,0 +1,9 @@
+0f4f3c99f2cd6e67a001e0cd44d8760f06c34bd1  U-meadowphysics/meadowphysics.pd_linux
+6391a99d73f23736e9984fe188bcd24212668934  U-meadowphysics/notemaker.pd
+066d672e6522ba891af9e0acdd5c53468a673037  U-meadowphysics/meadowphysics.c
+9666c59822eedc7065dc279d00d2f5b90065d7dc  U-meadowphysics/meadowphysics.o
+cc15eb6fd4e5ac7b3eea61ae7770b3e69bdc62eb  U-meadowphysics/meadowphysics-help.pd
+26f6b82d434f871123d795a28db351e4b9588fec  U-meadowphysics/meadowphysics.h
+a1c7ce43f888bf31d540ef256d64a570ad217b7e  U-meadowphysics/deploy.sh
+b20d82195f31cf418e29b7dfaa65224c8db93f26  U-meadowphysics/module.pd
+ccf6257e9be3e47245495fa74985ab8dd90e0b39  U-meadowphysics/module.json

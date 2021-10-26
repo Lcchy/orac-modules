@@ -1,0 +1,18 @@
+{
+    "name" : "simple_oscillator",
+    "display" : "simple_osc",
+    "parameters" :  [ 
+        ["pct", "detune", "Detune", 0, 100, 50],
+        ["int", "wave", "Waveform", 1, 5, 1],
+        ["int", "hold", "Hold tone", 0, 1, 0],
+	["time","attack","Attack", 2, 1000, 50],        
+        ["time", "decay", "Decay", 2, 1000, 100],        
+        ["pct", "sustain", "Sustain", 0, 100, 50],        
+        ["time", "release", "Release", 2, 1000, 50]
+    ],
+    "pages" : [
+        ["pg_main", "Main", ["detune", "wave", "hold"]], 
+        ["pg_adsr", "ADSR", ["attack", "decay", "sustain", "release"]]
+    ]
+}
+
