@@ -1,0 +1,3 @@
+59b47dcdf822eb3533396f819015109b49c230c3  supercompress/deploy.sh
+fe733f8a5fbed8fe2219cf5ad765382a3bfd82c9  supercompress/module.json
+7276f283751313db30972d32d8cc83ce01b9ef29  supercompress/module.pd
