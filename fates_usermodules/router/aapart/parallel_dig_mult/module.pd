@@ -1,4 +1,4 @@
-#N canvas 1458 243 2376 1613 10;
+#N canvas 0 96 1920 984 10;
 #X obj 1128 901 chainin 1 \$1;
 #X obj 1127 1076 chainout 1 \$1;
 #X obj 1117 956 fullmodule a1 \$1;
@@ -132,7 +132,7 @@
 #X obj 1618 628 *~;
 #X obj 1612 707 -~;
 #X obj 1634 680 *~;
-#N canvas 583 207 1620 1246 midiOSC 0;
+#N canvas 0 96 1920 984 midiOSC 1;
 #X obj 588 941 packOSC;
 #X obj 588 1096 netsend -u -b 6100;
 #X obj 588 964 list prepend send;
@@ -214,6 +214,7 @@
 #X msg 830 374 1;
 #X obj 933 412 t b f;
 #X obj 1393 217 change 99;
+#X obj 613 826 print DD;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
@@ -263,6 +264,7 @@
 #X connect 33 0 37 0;
 #X connect 34 0 38 0;
 #X connect 35 0 0 0;
+#X connect 35 0 81 0;
 #X connect 36 0 0 0;
 #X connect 37 0 0 0;
 #X connect 38 0 0 0;
