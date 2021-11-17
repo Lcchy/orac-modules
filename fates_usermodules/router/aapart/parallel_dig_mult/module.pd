@@ -1,4 +1,4 @@
-#N canvas 0 96 1920 984 10;
+#N canvas 0 113 3840 2047 10;
 #X obj 1128 901 chainin 1 \$1;
 #X obj 1127 1076 chainout 1 \$1;
 #X obj 1117 956 fullmodule a1 \$1;
@@ -132,7 +132,7 @@
 #X obj 1618 628 *~;
 #X obj 1612 707 -~;
 #X obj 1634 680 *~;
-#N canvas 0 96 1920 984 midiOSC 1;
+#N canvas 1920 113 1920 2047 midiOSC 1;
 #X obj 588 941 packOSC;
 #X obj 588 1096 netsend -u -b 6100;
 #X obj 588 964 list prepend send;
@@ -162,7 +162,7 @@
 #X obj 410 543 > 0;
 #X obj 428 446 change;
 #X obj 410 565 route 0 1;
-#X obj 1391 393 route 0 1 2 3;
+#X obj 1364 374 route 0 1 2 3;
 #X obj 714 703 spigot 0;
 #X msg 1406 564 0;
 #X obj 847 706 spigot 0;
@@ -171,7 +171,7 @@
 #X msg 714 731 send /Param1 \$1;
 #X msg 847 734 send /Param2 \$1;
 #X msg 970 732 send /Param3 \$1;
-#X msg 1086 730 send /Param4 \$1;
+#X msg 1087 732 send /Param4 \$1;
 #X msg 761 677 1;
 #X msg 896 681 1;
 #X msg 1019 679 1;
@@ -215,6 +215,7 @@
 #X obj 933 412 t b f;
 #X obj 1393 217 change 99;
 #X obj 613 826 print DD;
+#X obj 1123 806 print;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
@@ -266,8 +267,10 @@
 #X connect 35 0 0 0;
 #X connect 35 0 81 0;
 #X connect 36 0 0 0;
+#X connect 36 0 82 0;
 #X connect 37 0 0 0;
 #X connect 38 0 0 0;
+#X connect 38 0 82 0;
 #X connect 39 0 30 1;
 #X connect 40 0 32 1;
 #X connect 41 0 33 1;

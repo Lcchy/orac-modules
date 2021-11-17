@@ -1,0 +1,13 @@
+{
+    "name" : "midi retrig",
+    "display" : "Midi Retrigs",
+    "parameters" :  [ 
+        ["time","exp_1","Exp 1",0,500,30],
+        ["time","exp_2","Exp 2",0,3000,30],
+        ["time","note_length","Note length",0,3000,10]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["exp_1", "exp_2", "note_length"]]
+    ]
+}
+
