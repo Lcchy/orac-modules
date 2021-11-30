@@ -1,0 +1,3 @@
+dd15f974805b6829ced351075d72fc3fb9c3a400  scope/deploy.sh
+dfc4ea60622d177cd1649dc1b121d8ebb230419a  scope/module.json
+5cff80f60ff83a5e236e76f270f39f2def2c5ac6  scope/module.pd

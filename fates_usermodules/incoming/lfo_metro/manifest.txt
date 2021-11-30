@@ -1,0 +1,3 @@
+28efcd03dec12c59e7b3aca1dee79e42702a8907  lfo_metro/module.pd
+66164b5274b5c00c5ca9fd8dd56f9fade4ef839d  lfo_metro/module.json
+e12e56a0bf04139abf1da804339286c946289f8d  lfo_metro/deploy.sh

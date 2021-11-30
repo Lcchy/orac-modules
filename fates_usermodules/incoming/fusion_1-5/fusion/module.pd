@@ -1,4 +1,4 @@
-#N canvas 83 249 1367 695 10;
+#N canvas 83 249 2287 1331 10;
 #X obj 17 1098 outlet~ outL-\$1;
 #X obj 126 1098 outlet~ outR-\$1;
 #N canvas 593 63 1323 671 plaits_kick_accent 0;
@@ -598,8 +598,8 @@
 #X connect 71 0 36 0;
 #X restore 394 333 pd plaits_snare_accent;
 #X obj 722 323 sel \$1;
-#X obj 722 305 unpack s s;
-#X obj 722 287 r activePage;
+#X obj 650 273 unpack s s;
+#X obj 618 197 r activePage;
 #X msg 722 341 1;
 #X msg 755 341 0;
 #X obj 722 369 change;
@@ -1077,6 +1077,7 @@
 #X msg 935 227 8;
 #X obj 647 27 spigot 0;
 #X msg 1133 817 /oled/aux/line/1 Fusion (1.5);
+#X obj 652 304 print;
 #X connect 2 0 18 0;
 #X connect 2 0 75 0;
 #X connect 2 1 18 1;
@@ -1096,6 +1097,7 @@
 #X connect 6 0 9 0;
 #X connect 6 1 10 0;
 #X connect 7 0 6 0;
+#X connect 7 0 108 0;
 #X connect 8 0 7 0;
 #X connect 9 0 11 0;
 #X connect 10 0 11 0;
