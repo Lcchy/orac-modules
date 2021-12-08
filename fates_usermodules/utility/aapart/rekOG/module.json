@@ -1,0 +1,12 @@
+{
+    "name" : "rekOG",
+    "display" : "OG Recorder",
+    "parameters" :  [ 
+        ["int","record","Record",0,1,0],
+        ["int","cue","Cue",0,1,0]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["record","cue"]]
+    ]
+}
+

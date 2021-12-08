@@ -437,12 +437,12 @@
 #X connect 58 0 19 1;
 #X connect 61 0 91 0;
 #X connect 61 1 97 0;
-#X connect 61 2 75 0;
 #X connect 61 2 92 0;
 #X connect 61 2 98 0;
-#X connect 61 3 81 0;
+#X connect 61 2 75 0;
 #X connect 61 3 94 0;
 #X connect 61 3 100 0;
+#X connect 61 3 81 0;
 #X connect 61 4 96 0;
 #X connect 61 4 102 0;
 #X connect 61 4 87 0;

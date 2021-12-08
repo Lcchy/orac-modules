@@ -13,6 +13,6 @@
     ],
     "pages" : [ 
         ["pg_main","Main",["e_attack","e_decay","e_sustain","e_release"]],
-        ["pg_target","Misc",["e_bus", "e_amp", "e_depth", "e_ch_in"]]
+        ["pg_target","Misc",["e_bus", "e_amp", "e_ch_in"]]
     ]
 }
